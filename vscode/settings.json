@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "material-icon-theme.folders.color": "#90a4ae",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "editor.fontFamily": "JetBrainsMono Nerd Font,Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning"
+    ],
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "workbench.editor.wrapTabs": true,
+    "editor.stickyScroll.enabled": false,
+    "window.zoomLevel": 1
+}
