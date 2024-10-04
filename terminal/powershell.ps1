@@ -16,25 +16,6 @@ function goToDefaultCButShorter {
     cd C:\
 }
 
-function goToDefaultNvimButShorter {
-    cd C:\Users\YogaDharma\AppData\Local\nvim
-}
-
 Set-Alias project goToCodeFolder
 Set-Alias nrd goRunNpmRunDevButShorter
 Set-Alias c goToDefaultCButShorter
-Set-Alias nf goToDefaultNvimButShorter 
-
-$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
-if (Test-Path($ChocolateyProfile)) {
-  Import-Module "$ChocolateyProfile"
-}
-
-
-Write-Host -ForegroundColor DarkYellow "██╗   ██╗ ██████╗  ██████╗  █████╗ "
-Write-Host -ForegroundColor DarkYellow "╚██╗ ██╔╝██╔═══██╗██╔════╝ ██╔══██╗"
-Write-Host -ForegroundColor DarkYellow " ╚████╔╝ ██║   ██║██║  ███╗███████║"
-Write-Host -ForegroundColor DarkYellow "  ╚██╔╝  ██║   ██║██║   ██║██╔══██║"
-Write-Host -ForegroundColor DarkYellow "   ██║   ╚██████╔╝╚██████╔╝██║  ██║"
-Write-Host -ForegroundColor DarkYellow "   ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═╝"
-
